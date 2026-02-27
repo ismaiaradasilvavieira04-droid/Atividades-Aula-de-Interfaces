@@ -1,0 +1,151 @@
+h1 {
+    left: 300px;
+}
+
+#camada1{
+    position: absolute;
+    width: 970px;
+    height: 260px;
+    background-color: #fa825d;
+    color:#FFF;
+    top:9px;
+    left:100px;
+    padding: 10px;
+    z-index:10;
+}
+
+
+
+#camada2{
+    position: absolute;
+    width: 550px;
+    height: 60px;
+    background-color: rgb(254, 254, 254);
+    align-items: center;
+    top:90px;
+    left:320px;
+    z-index:60;
+
+}
+
+
+
+#camada3{
+    position: absolute;
+    width:62px;
+    height: 60px;
+    background-color: #3b3a3a;
+    top:90px;
+    left: 860px;
+    z-index:60;
+    
+}
+
+#camada4{
+    position: absolute;
+    width:150px;
+    height:35px;
+    background-color: #8F8C8C;
+    color:#FFF;
+    text-align: center;
+    top:330px;
+    left:200px;
+    z-index:80;
+}
+
+#camada5{
+    position: absolute;
+    width:150px;
+    height:35px;
+    background-color: #8F8C8C;
+    color:#FFF;
+    top:330px;
+    left:410px;
+    z-index:80;
+}
+
+#camada6{
+    position: absolute;
+    width:150px;
+    height:35px;
+    background-color: #8F8C8C;
+    color:#FFF;
+    top:330px;
+    left:600px;
+    z-index:80;
+}
+
+#camada7{
+    position: absolute;
+    width:150px;
+    height:35px;
+    background-color: #8F8C8C;
+    color:#FFF;
+    top:330px;
+    left:800px;
+    z-index:80;
+}
+
+#camada8{
+    position: absolute;
+    width:170px;
+    height: 160px;
+    background-color: #fa825d;
+    top:400px;
+    left: 220px;
+    z-index:80;
+}
+
+#camada9{
+    position: absolute;
+    width:170px;
+    height: 160px;
+    background-color: #81dae1;
+    top:570px;
+    left:220px;
+    z-index:80;
+}
+
+
+#camada10{
+    position: absolute;
+    width:350px;
+    height: 160px;
+    background-color: #fa825d;
+    top:570px;
+    left: 400px;
+    z-index:80;
+}
+
+#camada11{
+    position: absolute;
+    width:170px;
+    height: 330px;
+    background-color: #CCCCCC;
+    top:400px;
+    left: 760px;
+    z-index:80;
+}
+
+
+#camada12{
+    position: absolute;
+    width:170px;
+    height: 160px;
+    background-color: #CCCCCC;
+    top:400px;
+    left: 400px;
+    z-index:80;
+}
+
+#camada13{
+    position: absolute;
+    width:170px;
+    height: 160px;
+    background-color: #81dae1;
+    top:400px;
+    left: 580px;
+    z-index:80;
+}
+
+
