@@ -1,0 +1,64 @@
+#topo{
+    width:990px;
+    height:150px;
+    background-color:#20B2AA;
+    top: 80px;
+    left: 400px;
+    z-index: 1;
+
+}
+
+#le{
+    width:990px;
+    height:500px;
+    background-color: #A2B5CD;
+    top:140px;
+    left:300px;
+   z-index: 1;
+}
+
+#conteudo{
+    position: absolute;
+    width:670px;
+    height:500px;
+    background-color: #AAAAAA;
+    top:230px;
+    left:150px;
+   z-index: 1;
+ }
+
+ #branco1{
+     position: absolute;
+    width:170px;
+    height: 160px;
+    background-color: #ffffff;
+    top:230px;
+    left: 825px;
+    z-index:80;
+ }
+
+  #branco2{
+     position: absolute;
+    width:170px;
+    height: 160px;
+    background-color: #ffffff;
+    top:398px;
+    left: 825px;
+    z-index:80;
+ }
+
+ #rodape{
+    width:989px;
+    height:30px;
+    background-color: #20B2FF;
+    top: 80px;
+    left: 400px;
+    z-index: 80;
+ }
+
+  #img{
+    position: absolute;
+    top: 580px;
+    left: 700px;
+    z-index: 80;
+ }
