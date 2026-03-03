@@ -1,0 +1,144 @@
+#header {
+    
+    width:1015px;
+    height:50px;
+    background-color: rgb(0, 0, 0);
+    color:#FFF;
+    text-align: center;
+    top:100px;
+    left:300px;
+    z-index:1;
+}
+
+#navazul {
+    position: absolute;
+    width:1015px;
+    height:30px;
+    background-color: #000098;
+    color:#FFF;
+    text-align: center;
+   
+}
+
+#navbegi {
+    position: absolute;
+    width:250px;
+    height:410px;
+    background-color: #CCCCAA;
+    font-size: 30px;
+    color:#FFF;
+    top: 99px;
+    text-align: center;
+   
+}
+
+#section {
+   position: absolute;
+    width:525px;
+    height:407px;
+    background-color: #FECCFF;
+    color:#FFF;
+    text-align: center;
+    top:100px;
+    left:245px;
+    z-index:4;
+}
+
+#aside {
+   position: absolute;
+    width:250px;
+    height:410px;
+    background-color: #FF00FE;
+    font-size: 30px;
+    text-align: center;
+    color:#FFF;
+    top: 99px;
+    left: 770px;
+    z-index: 2;
+}
+
+#footer {
+    position: relative;
+    width:1010px;
+   height: 40px;
+    background-color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-align: center;
+    color: #ffffff;
+    top:436px;
+    left:1px;
+    z-index:1;
+}
+
+#header2 {
+    position: relative;
+    background-color: #ffffff;
+    color: black;
+    width: 500px;
+    height: 30px;
+    left: 10px;
+   
+}
+#div1 {
+    position: relative;
+    background-color: #9A6600;
+    width: 500px;
+    height: 130px;
+    left: 10px;
+    top: 7px;
+}
+
+#paragrafo {
+    position: relative;
+    background-color: #CCCCFE;
+    width: 500px;
+    height: 90px;
+    left: 10px;
+    top: 3px;
+}
+
+
+#div2{
+    position: relative;
+    width:150px;
+    height: 90px;
+    background-color: #666666;
+    color:#FFF;
+    text-align: center;
+    top:10px;
+    left:10px;
+    
+}
+
+
+#div3{
+    position: absolute;
+    width:150px;
+    height: 90px;
+    background-color: #666666;
+    color:#FFF;
+    top:310px;
+    left:180px;
+}
+
+
+#div4{
+    position: absolute;
+    width:150px;
+    height: 90px;
+    background-color: #666666;
+    color:#FFF;
+    text-align: center;
+    top:310px;
+    left:360px;
+}
+
+
+
+
+
+
+
+
+
+
