@@ -134,6 +134,21 @@
 }
 
 
+@media only screen and (min-width:481px) {
+    @media only screen and (max-width:720px) {
+        #header{
+            width: 95%;
+        }
+        #menuEsquerdo{
+            height: 80px;
+        }
+
+       
+    }
+
+}
+
+
 
 
 

@@ -1,3 +1,6 @@
+#body {
+    margin: 0;
+}
 #header {
   
     width:1500px;
@@ -156,5 +159,58 @@
     left:1px;
   
 }
+
+/* ---------------Visualização-------------- */
+
+@media only screen and (min-width:481px) {
+    @media only screen and (max-width:720px) {
+        #header{
+            width: 60%;
+        }
+        #topo{
+            height: 80px;
+            flex-wrap: wrap;
+        }
+        #menuEsquerdo,
+        aside {
+         width: 33.33;
+         color: aquamarine;
+        }
+            
+        #menuEsquerdo a{
+    width:17%;
+    text-align:center;
+    font-size:15px;
+    text-decoration:none;
+    background-color:#009;
+    color:#fff;
+}
+        }
+
+       
+    }
+
+
+    @media only screen and (max-width:480px) {
+        #header {
+            width: 100%;
+        }
+
+        #menuEsquerdo{
+            display: flex;
+            flex-direction: column;
+            height: 250px;
+        }
+           #menuEsquerdo a{
+        width: 100%;
+
+           }
+
+           #titulo, #propagandas, #imagem, p {
+            display: none;
+           }
+
+    }
+
 
 

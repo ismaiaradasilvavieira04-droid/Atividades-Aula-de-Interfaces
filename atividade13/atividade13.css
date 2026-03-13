@@ -1,0 +1,502 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+#fundo1 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin: auto;
+}
+#guitarra1{
+    background-color: rgb(253, 0, 169);
+    width: 100%;
+    height: 800px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+#guitarra1 img{
+    width: 100%;
+    height: 800px;
+}
+
+#limao {
+     position: relative;
+    width: 95%;
+    height: 230px;
+    margin: auto;
+    background-color: lime;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    margin: auto;
+    z-index: 2;
+}
+#limao img{
+    
+        width: 100%;
+        height: 230px;
+    
+}
+#section1 {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: 520px;
+    background-color:rosybrown;
+    top: -10px;
+}
+#nav1 {
+    position: relative;
+    background-color: rgb(255, 0, 0);
+    width: 95%;
+    height: 490px;
+    margin: auto;
+    margin-top: 10px;
+    top: -685px;
+    z-index: 1;
+}
+#loja_nossa{
+    position: relative;
+    color: white;
+    font-size: 30px;
+}
+#texto_loja{
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    top: 30px;
+}
+nav {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    top: -620px;
+    margin-right: 100px;
+    z-index: 5;
+}
+nav .botao {
+    
+    background-color: #ffffff;
+    color: rgb(255, 0, 0);
+    font-size: 21px;
+    padding: 20px;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+nav .botao:hover{
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+}
+#div1{
+    position: relative;
+    width: 45%;
+    height: 335px;
+    margin: auto;
+    background-color:rgb(223, 125, 125);   
+    color: black;
+    margin-top: 10px;
+    margin-right: 50px;
+    top: 70px; 
+    z-index: 2;
+}
+#div1 img {
+    width: 100%;
+    height: 335px;
+}
+#div2{
+    position: relative;
+    width: 46%;
+    height: 335px;
+    background-color:rgb(255, 106, 106);   
+    color: black;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 50px;
+    top: -275px;
+    z-index: 2;
+}
+#section2{
+       position: relative;
+      margin: auto;
+    width: 95%;
+    height: 520px;
+    background-color: rgb(255, 255, 255);
+    top: -45px;
+    z-index: 2;
+
+}
+#guitarra3{
+    position: relative;
+    color: black;
+    top: 50px;
+    font-size: 25px;
+}
+#preco{
+    position: relative;
+    color: red;
+    margin-top: 70px;
+    font-size: 35px;
+}
+#branca1 {
+    position: relative;
+    background-color: white;
+    color: black;
+    width: 20%;
+    height: 90%;
+    margin: auto;
+    margin-top: 1.5%;
+    margin-left: 3%;
+    border-radius: 5px;
+    z-index: 3;
+}
+#branca1 img{
+    width: 70%;
+    height: 70px;
+    margin-top: 120px;
+}
+#branca2 {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    width: 20%;
+    height: 90%;
+    top: -95%;
+    margin: auto;
+    margin-top: 1.5%;
+    margin-left: 26%;
+    border-radius: 5px;
+    z-index: 4;
+}
+#branca2 img{
+    width: 70%;
+    height: 70px;
+    margin-top: 120px;
+}
+#branca3 {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    width: 20%;
+    height: 90%;
+    top: -190%;
+    margin: auto;
+    margin-top: 1.5%;
+    margin-left: 49%;
+    border-radius: 5px;
+    z-index: 3;
+}
+#branca3 img{
+    width: 70%;
+    height: 70px;
+    margin-top: 120px;
+}
+#branca4 {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    width: 20%;
+    height: 90%;
+    top: -285%;
+    margin: auto;
+    margin-top: 1.5%;
+    margin-left: 72%;
+    border-radius: 5px;
+    z-index: 3;
+}
+#branca4 img{
+    width: 70%;
+    height: 70px;
+    margin-top: 120px;
+}
+#section3 {
+    position: relative;
+      margin: auto;
+    width: 95%;
+    height: 620px;
+    background-color:rosybrown;
+    top:-53px;
+   
+}
+#laranja{ 
+    position: relative;
+    background-color: rgb(255, 123, 0);
+    width: 95%;
+    height: 91.5%;
+    top: 20px;
+    left: 40px;
+    }
+#section4 {
+    
+    position: relative;
+      margin: auto;
+    width: 95%;
+    height: 620px;
+    background-color:rosybrown;
+    top: -80px;
+}
+#amarelo { 
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 98%;
+    height: 570px;
+    margin: auto;
+    margin-top: 10px;
+    margin-right: 10%;
+    top: 20px;
+    z-index: 1;
+}
+#verde{ 
+    position: relative;
+    width: 45%;
+    height: 400px;
+    margin: auto;
+    background-color:rosybrown;   
+    color: black;
+    margin-top: 10px;
+    margin-right: 70px;
+    top: -1100px;
+    z-index: 2;
+}
+#loja_nossa2{
+    margin-top: 60px;
+    position: relative;
+    color: white;
+    font-size: 30px;
+    margin-top: 30px;
+}
+#texto_loja2{
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    top: 30px;
+}
+#azul {
+    position: relative;
+    width: 45%;
+    height: 400px;
+    margin: auto;
+    background-color:rgb(24, 2, 107);   
+    color: black;
+    margin-top: 10px;
+    margin-right: 940px;
+    top: -1510px;
+    z-index: 2;
+   }
+   #azul img{
+    width: 100%;
+    height: 400px;
+   }
+   #nome{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-size: 25px;
+    left: 30px;
+    top: -1320px;
+    width: 15%;
+    height: 40px;
+    z-index: 5;
+   }
+   #email{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-size: 25px;
+    left: 30px;
+    top: -1300px;
+    width: 15%;
+    height: 40px;
+    z-index: 5;
+   }
+   #login_nome{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    color: rgb(107, 107, 107);
+    font-size: 15px;
+    left: 30px;
+    top: -1320px;
+    width: 35%;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 8px;
+    z-index: 5;
+   }
+   #login_email{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    color: rgb(107, 107, 107);
+    font-size: 15px;
+    left: 30px;
+    top: -1300px;
+    width: 35%;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 8px;
+    z-index: 5;
+   }
+   #pedido{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    color: rgb(107, 107, 107);
+    font-size: 15px;
+    left: 30px;
+    top: -1280px;
+    width: 35%;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 8px;
+    z-index: 5;
+   }
+   #enviar{
+     position: relative;
+    background-color: rgb(255, 255, 255);
+    color: rgb(107, 107, 107);
+    font-size: 15px;
+    left: 30px;
+    top: -1250px;
+    width: 32%;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 8px;
+    z-index: 5;
+   }
+   #acesse{
+    position: relative;
+    background-color: white;
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 50%;
+    height: 60px;
+    top: -1700px;
+    left: 830px;
+    z-index: 5;
+   }
+   #whatssap{
+    position: relative;
+    width: 30%;
+    height: 100px;
+    top: -1680px;
+    left: 800px;
+    z-index: 5;
+   }
+   #whatssap img{
+    width: 27%;
+    height: 80px;
+   }
+   #instagram{
+    position: relative;
+    width: 30%;
+    height: 100px;
+    top: -1780px;
+    left: 960px;
+    z-index: 5;
+   }
+   #instagram img{
+    width: 27%;
+    height: 80px;
+   }
+    #facebook{
+    position: relative;
+    width: 30%;
+    height: 100px;
+    top: -1878px;
+    left: 1125px;
+    z-index: 5;
+   }
+   #facebook img{
+    width: 27%;
+    height: 77px;
+   }
+   #rodape {
+    position: relative;
+    background-color: black;
+    width: 95%;
+    height: 600px;
+    top: -90px;
+    left: 38px;
+   }
+   #nome_loja{
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    width: 40%;
+    height: 20px;
+    top: -650px;
+    left: 500px;
+    z-index: 5;
+   }
+#endereço{
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    width: 40%;
+    height: 20px;
+    top: -640px;
+    left: 500px;
+    z-index: 5;
+    }
+#endereço2{
+     position: relative;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    width: 40%;
+    height: 20px;
+    top: -630px;
+    left: 500px;
+    z-index: 5;
+    }
+    #whatssap2{
+    position: relative;
+    width: 30%;
+    height: 100px;
+    top: -600px;
+    left: 480px;
+    z-index: 5;
+   }
+   #whatssap2 img{
+    width: 10%;
+    height: 50px;
+   }
+   #instagram2{
+    position: relative;
+    width: 30%;
+    height: 100px;
+    top: -700px;
+    left: 560px;
+    z-index: 5;
+   }
+   #instagram2 img{
+    width: 10%;
+    height: 50px;
+   }
+    #facebook3{
+    position: relative;
+    width: 30%;
+    height: 100px;
+    top: -800px;
+    left: 645px;
+    z-index: 5;
+   }
+   #facebook3 img{
+    width: 10%;
+    height: 50px;
+   }
+      
